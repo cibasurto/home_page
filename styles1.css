@@ -1,0 +1,316 @@
+/* background image and font*/
+      body {
+        background-image: url("web_bkg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: 100%;
+        color: #F2F2F2;
+        font-family: "Rubik", sans-serif;
+      }
+/* nav bar */
+      ul {
+        list-style-type: none;
+        margin: -8;
+        padding-left: 75px;
+        overflow: hidden;
+        background-color: rgba(157, 179, 227, 55%);
+      }
+      li {
+        float: left;
+      }
+      .navbar a {
+        text-decoration: none;
+        color: #F2F2F2;
+        font-size: 25px;
+        font-weight: 500;
+        display: block;
+        padding: 20px;
+      }
+      .navbar a:hover {
+        background-color: rgba(151, 193, 120, 55%); 
+      }
+      .instalogo1 {
+        width: 31px;
+        float: right;
+        margin-top: -42px;
+        margin-right: 155px;
+      }
+      .emailicon1 {
+        width: 46px;
+        float: right;
+        margin-top: -50px;
+        margin-right: 89px;
+      }
+/* name title */
+      .nameintro {
+        font-size: 90px;
+        font-weight: 700;
+        background-color: rgba(199, 174, 224, 55%);
+        margin-top: 8px;
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 200px;
+        padding-top: 35px;
+        padding-bottom: 15px;
+      }
+      .namesubtitle {
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 0px;
+        padding-left: 4px;
+      }
+/* portfolio sections */
+      .personal {
+        font-size: 45px;
+        font-weight: 600;
+        border-radius: 15px;
+        width: 600px;
+        text-align: center;
+        background-color: rgba(151, 193, 120, 55%);
+        margin-left: 20px;
+        margin-right: 80px;
+        padding-top: 350px;
+        padding-bottom: 40px;
+      }
+      .course {
+        font-size: 45px;
+        font-weight: 600;
+        border-radius: 15px;
+        width: 600px;
+        text-align: center;
+        background-color: rgba(157, 179, 227, 55%);
+        margin-left: 30px;
+        margin-right: 80px;
+        padding-top: 350px;
+        padding-bottom: 40px;
+      }
+      .column {
+        float: left;
+        width: 40%;
+        padding: 5px;
+        margin-left: 65px;
+        margin-right: 30px;
+        margin-top: -30px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+/* images */
+      .niki1 {
+        width: 600px;
+        margin-top: -480px;
+        margin-left: 20px;
+        border-radius: 15px;
+      }
+      .magcov1 {
+        width: 600px;
+        margin-top: -480px;
+        margin-left: 30px;
+        border-radius: 15px;
+      }
+/* about title */
+      .abouttitle{
+        font-size: 90px;
+        font-weight: 700;
+        background-color: rgba(199, 174, 224, 55%);
+        margin-top: -260px;
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 200px;
+        padding-top: 35px;
+        padding-bottom: 8px;
+      }
+      .aboutsubtitle {
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 0px;
+        padding-left: 3px;
+      }
+/* about text */
+      .abouttext1 {
+        font-size: 25px;
+        font-weight: 500;
+        background-color: rgba(199, 174, 224, 55%);
+        margin: -61px -8px 0px -8px;
+        padding-left: 95px;
+      }
+      .abouttext2 {
+        font-size: 25px;
+        font-weight: 500;
+        background-color: rgba(199, 174, 224, 55%);
+        margin: 0px -8px 0px -8px;
+        padding-top: 25px;
+        padding-left: 95px;
+      }
+      .abouttext3 {
+        font-size: 25px;
+        font-weight: 500;
+        background-color: rgba(199, 174, 224, 55%);
+        margin: 0px -8px 0px -8px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-left: 95px;
+      }
+/*socials and email  text */
+      .socials {
+        font-size: 25px;
+        font-weight: 500;
+        background-color: rgba(199, 174, 224, 55%);
+        margin: -16px -8px 0px -8px;
+        padding-top: 30px;
+        padding-left: 95px;
+      }
+      .insta {
+        font-size: 25px;
+        font-weight: 500;
+        background-color: rgba(199, 174, 224, 55%);
+        margin: 0px -8px 0px -8px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 95px;
+      }
+      .instalink {
+        text-decoration: none;
+        color: #F2F2F2;
+      }
+      .instalink:hover {
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgba(151, 193, 120, 55%);
+      }
+      .email {
+        font-size: 25px;
+        font-weight: 500;
+        margin: -109px 0px 50px 0px;
+        padding-top: 30px;
+        padding-left: 280px;
+      }
+      .sendemail {
+        text-decoration: none;
+        color: #F2F2F2;
+      }
+      .sendemail:hover {
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgba(151, 193, 120, 55%);
+      }
+/* personal projects title*/
+      .persproj {
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        background-color: rgba(151, 193, 120, 55%);
+        margin: 130px -8px 0px -8px;
+        padding: 25px 0px 25px 0px;
+      }
+/* pers.proj blurb */
+      .blurb1 {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 0.25;
+        text-align: center;
+        background-color: rgba(199, 174, 224, 55%);
+        margin: 0px -8px 0px -8px;
+        padding: 25px 0px 25px 0px;
+      }
+/* pers.proj images */
+      .ning2 {
+        width: 655px;
+        padding: 80px 0px 0px 90px;
+      }
+      .jay {
+        width: 655px;
+        padding: 80px 0px 0px 2px;
+      }
+      .niki2 {
+        width: 655px;
+        padding-left: 90px;
+        padding-bottom: 15px;
+      }
+      .chaewon {
+        width: 655px;
+        padding-left: 2px; 
+      }
+      .jksh {
+        width: 655px;
+        padding-left: 90px;
+      }
+      .theo {
+        width: 655px;
+        padding-left: 2px;
+      }
+      .gbda {
+        width: 655px;
+        padding-left: 90px;
+      }
+      .tampc {
+        width: 655px;
+        padding-left: 2px;
+      }
+      .soul1 {
+        width: 1315px;
+        padding-left: 90px;
+      }
+      .minji {
+        width: 655px;
+        padding-left: 90px;
+        padding-top: 5px;
+      }
+      .soul2 {
+        width: 655px;
+        padding-left: 2px;
+      }
+      .icespice {
+        width: 655px;
+        padding: 0px 0px 35px 90px;
+      }
+      .yunjin {
+        width: 655px;
+        padding-left: 2px;
+      }
+      .rm {
+        width: 655px;
+        padding-left: 90px;
+      }
+      .liz {
+        width: 655px;
+        padding-left: 2px;
+      }
+      .couras {
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        background-color: rgba(157, 179, 227, 55%);
+        margin: 75px -8px 0px -8px;
+        padding: 25px 0px 25px 0px;
+      }
+      .blurb2 {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 0.25;
+        text-align: center;
+        background-color: rgba(199, 174, 224, 55%);
+        margin: 0px -8px 0px -8px;
+        padding: 25px 0px 25px 0px;
+      }
+      .daypost {
+        width: 655px;
+        padding: 80px 0px 0px 90px;
+      }
+      .nightpost {
+        width: 655px;
+        padding: 80px 0px 0px 2px;
+      }
+      .magcover {
+        width: 655px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        background-color: rgba(157, 179, 227, 55%);
+        padding: 30px;
+        border-radius: 15px;
+      }
